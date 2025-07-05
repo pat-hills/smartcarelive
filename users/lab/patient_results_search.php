@@ -1,0 +1,15 @@
+<?php
+
+require_once "p_parts/heads/medic_his_head.php";
+require_once "p_parts/navbar.php";
+require_once "p_parts/sidebar.php";
+require_once "tasks/patient_results_search.php";
+require_once "p_parts/foots/medic_his_foot.php";
+
+//clear session for a new patient walk in
+
+// $_SESSION['walk_in_contact'] = "";
+// $_SESSION['walk_in_code'] = "";
+// $_SESSION['walk_name'] = "";
+
+?>

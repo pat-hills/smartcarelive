@@ -1,0 +1,10 @@
+Handling error @ admissions page : 
+error, some of the ward_id was 0, and need to be check in the database
+
+Medications to be given:
+Quantity is having mg/"letters to the quantity" and needs to be remove from the db.
+
+Now make sure, nothing in the precribtion table has no letters because we have introduced it.
+
+New columns
+Strength on precribtion table : strength

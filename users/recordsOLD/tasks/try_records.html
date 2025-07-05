@@ -1,0 +1,73 @@
+ <div class="col-sm-12 col-md-12">
+        <div class="block-flat">
+          <div class="header">              
+            <h3>Medical Info</h3>
+          </div>
+          <div class="content">
+
+          <form role="form" method="post" action="db_tasks/upt_pat_meDinfo.php"> 
+          <?php
+            //calling the set med function to choose radio buttons
+            //with regards to search patient
+          require_once "../../functions/func_records.php";
+          set_med_info();
+
+          ?>
+            <div class="form-group">
+                  <label class="col-sm-3 control-label">Epilepsy</label>
+                 
+                    Yes <input type="radio" <?php echo @$_SESSION['epilepsyYes'];?> name="epilepsy" value="1">
+                    No <input type="radio" <?php echo @$_SESSION['epilepsyNo'];?> name="epilepsy" value="0">
+                 
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-3 control-label">Sickle Cell</label>
+                  
+                    Yes <input type="radio" <?php echo @$_SESSION['sickleYes'];?> name="sicklecell" value="1">
+                    No <input type="radio" <?php echo @$_SESSION['sickleNo'];?>  name="sicklecell" value="0">
+                 
+                </div>
+                 <div class="form-group">
+                  <label class="col-sm-3 control-label">Diabetes</label>
+                  
+                    Yes <input type="radio" <?php echo @$_SESSION['diaYes'];?>  name="diabetes" value="1">
+                    No <input type="radio" <?php echo @$_SESSION['diaNo'];?>  name="diabetes" value="0">
+                  
+                </div>
+                 <div class="form-group">
+                  <label class="col-sm-3 control-label">Allergies</label>
+                  
+                    Yes <input type="radio" <?php echo @$_SESSION['allergiesYes'];?>  name="allergies" value="1">
+                    No  <input type="radio" <?php echo @$_SESSION['allergiesNo'];?>  name="allergies" value="0">
+                  
+                </div>
+                 <div class="form-group">
+                  <label class="col-sm-3 control-label">Hypertension</label>
+                  
+                    Yes <input type="radio" <?php echo @$_SESSION['hyperYes'];?>  name="hypertension" value="1">
+                    No <input type="radio" <?php echo @$_SESSION['hyperNo'];?>  name="hypertension" value="0">
+                 
+                </div>
+                 <div class="form-group">
+                  <label class="col-sm-3 control-label">Other Diagnosis</label>
+                  
+                    <input class="" name="other" value="<?php echo @$_SESSION['other'];?> "type="text" class="form-control" placeholder="Other Diagnosis" />
+                  
+                </div>
+                <div class="form-group">
+                 
+                    <label class="col-sm-3 control-label">Blood Group</label>
+                    
+                    <input class="" name="blood_group" value="<?php echo @$_SESSION['blood_group'];?> "type="text" class="form-control" placeholder="Blood Group" />
+                
+            
+                </div>
+                 
+                   <button class="btn btn-primary" type="submit"><i class="fa fa-cloud-upload"></i> Update Medical Info</button>
+             
+            </form>
+          
+          </div>
+        </div>        
+      </div>
+    

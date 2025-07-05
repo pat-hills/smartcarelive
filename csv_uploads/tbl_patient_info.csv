@@ -1,0 +1,279 @@
+patients,surname,other_names,sex,marital_status,occupation,phone,address,national_id,date_created,ppic,dob
+PAT1401713,HORTOR GRANT,MARY,Female,Single,STUDENT,248465229,"PANKRONO ESTATE PLT 18 BLK A                      
+                    ",,9/11/2014 11:53,,12/25/1988
+PAT1401714,OPOKU,ABIGAIL,Female,Single,,245297112,"MAMPONTENG                      
+                    ",,9/11/2014 12:21,,2/5/1994
+PAT1401715,OTCHERE,MELVIN BARIMA,Male,Single,PUPIL,,"TAFO NHYIEASO KUMASI                      
+                    ",,9/11/2014 12:29,,7/28/2008
+PAT1401716,GYASI,CHARITY,Female,Married,TRADER,244939094,"PLT 10 BLK 8 KROFROM                      
+                    ",,9/11/2014 12:36,,9/16/1969
+PAT1401717,AMPONSAH,DORCAS,Female,Married,TRADING,541851389,"TAFO KUMASI                      
+                    ",,9/11/2014 12:38,,1/29/1974
+PAT1401718,NSIAH,MARTHA,Female,Widowed,AGED,,"PLT 2 BLK 9 KROFROM                      
+                    ",,9/11/2014 12:44,,4/24/1934
+PAT1401719,ASIEDUWAA,SOPHIA,Female,Single,HAIRDRESSER,204692281,"BREMANG                      
+                    ",,9/11/2014 13:35,,1/15/1987
+PAT1401720,ZOPOKA,NAB,Female,Married,TRADER,546863331,"SUAME                      
+                    ",,9/11/2014 13:42,,2/16/1980
+PAT1401721,ABDUL,JALIL,Male,Single,PUPIL,,"PLT 1 BLK O PANKRONO                      
+                    ",,9/11/2014 13:47,,5/30/2007
+PAT1401722,MOHAMMED,RAMATU,Male,Married,TRADER,248476989,"PLT 17 BLK 14 TAFO                      
+                    ",,9/11/2014 14:05,,4/21/1967
+PAT1401723,FOSUAH,AKUA,Female,Married,TRADER,263603550,"BREMANG                      
+                    ",,9/12/2014 9:08,,4/6/1961
+PAT1401724,DOGBE,MARY,Female,Married,TRADER,243252055,"BREMANG                      
+                    ",,9/12/2014 9:12,,1899-12-31
+PAT1401725,AGYEMANG,JANET,Female,Married,HAIRDRESSER,246342790,"KRONOM                      
+                    ",,9/12/2014 9:18,,2/22/1985
+PAT1401726,AMPONSAH,SARAH,Female,Married,TRADER,,"NEW TAFO                      
+                    ",,9/12/2014 9:20,,5/17/1987
+PAT1401727,SARFO,ADU,Male,Married,TEACHER,,"BLK 2 PLT 3 ATIMATIM                      
+                    ",,9/12/2014 9:58,,6/24/1948
+PAT1401728,FABEA,AGNES,Female,Single,STUDENT,246997568,"PLT 39 BLK E TAFO NHYIAESO                      
+                    ",,9/12/2014 10:00,,6/27/1990
+PAT1401729, KHADIZATU,WALIU,Female,Single,STUDENT,,"PLT 3 BL K 20 TAFO                      
+                    ",,9/12/2014 11:04,,6/22/2004
+PAT1401730,YAHAYA,RABIU,Male,Single,CHILD,,"TAFO                      
+                    ",,9/12/2014 11:07,,6/12/2007
+PAT1401731,WALIWU,MUSA,Male,Single,PUPIL,,"TAFO                       
+                    ",,9/12/2014 11:10,,8/23/2007
+PAT1401732,YAHAYA,YASMIN,Male,Single,PUPIL,,"TAFO                      
+                    ",,9/12/2014 11:13,,2/12/2010
+PAT1401733,GYARYEY,ESTHER,Female,Single,STUDENT,245794502,"OLD TAFO                      
+                    ",,9/12/2014 11:16,,2/15/1997
+PAT1401734,BRENYA,SARAH,Female,Single,TRADER,244463308,"TAFO NHYIAESO                      
+                    ",,9/12/2014 11:19,,5/2/1970
+PAT1401735,ABUBAKAR,ABDUL JAMIL,Male,Single,STUDENT,,"TAFO                      
+                    ",,9/12/2014 11:20,,6/22/1999
+PAT1401736,AWUAH-MENSAH,AKOSUA KWAAFO,Female,Single,STUDENT,,"MEDUMA                      
+                    ",,9/12/2014 11:22,,8/15/1999
+PAT1401737,MENSAH,COMFORT,Female,Married,AGED,245613967,"KROFROM                      
+                    ",,9/12/2014 11:31,,1/31/1943
+PAT1401738,ANKRAH,MERCY,Female,Married,TEACHER,243911160,"TAFO NHYIAESO                      
+                    ",,9/12/2014 11:32,,12/20/1958
+PAT1401739,AKANBASIBA,CHARITY,Female,Single,STUDENT,544550001,"BUOKROM                      
+                    ",,9/12/2014 11:34,,10/29/1992
+PAT1401740,APPIAH,NAOMI,Female,Married,SEAMTRESS,241428163,"BREMANG KUMASI                      
+                    ",,9/12/2014 11:45,,5/7/1989
+PAT1401741,ADDAI KORANKYE,GILBERT,Male,Single,CHILD,,"AHWIAA KUMASI                      
+                    ",,9/12/2014 12:00,,6/5/2012
+PAT1401742,DADZIE,LLOYD,Male,Single,PUPIL,,"PLT 28 BLK 2 AYEDUASI                      
+                    ",,9/12/2014 12:05,,4/19/2006
+PAT1401743,SARFO DARKOAA,AMA,Female,Single,STUDENT,245965205,"DICHEMSO                      
+                    ",,9/12/2014 12:09,,1/13/1996
+PAT1401744,AMPONSAH,DEBORAH,Female,Widowed,TRADER,547277365,"SUAME                      
+                    ",,9/12/2014 12:15,,8/30/1971
+PAT1401745,BOAMAH,ADWOA,Female,Married,TRADER,540880551,"ATIMATIM                      
+                    ",,9/12/2014 12:17,,5/6/1971
+PAT1401746,AFRIYIE ,EMMANUEL,Male,Single,PUPIL,,"DAABAN                      
+                    ",,9/12/2014 12:30,,9/18/2002
+PAT1401747,KYEREMEH,FELICIA,Female,Married,TRADER,277793760,"ABUAKWA                      
+                    ",,9/12/2014 12:42,,8/6/1975
+PAT1401748,N. MBALID,PATRICK,Male,Single,STUDENT,543895099,"ROMAN HILL                      
+                    ",,9/12/2014 12:52,,11/16/1993
+PAT1401749,YEBOAH,CHELSEA,Male,Single,STUDENT,,"                      
+                    AZ ATASEMANSO",,9/12/2014 13:03,,4/18/2003
+PAT1401750,IDUN,EWURABENA,Female,Single,CHILD,,"MAAKRO                      
+                    ",,9/12/2014 13:11,,1/11/2012
+PAT1401751,IBRAHIM,SALLAH,Male,Married,WELDER,242674691,"SUAME                      
+                    ",,9/12/2014 13:11,,9/12/1978
+PAT1401752,IBRAHIM,SALLAH,Male,Married,WELDER,242674691,"SUAME                      
+                    ",,9/12/2014 13:11,,9/12/1978
+PAT1401753,IBRAHIM,SALLAH,Male,Married,WELDER,242674691,"SUAME                      
+                    ",,9/12/2014 13:11,,9/12/1978
+PAT1401754,IBRAHIM,SALLAH,Male,Married,WELDER,242674691,"SUAME                      
+                    ",,9/12/2014 13:11,,9/12/1978
+PAT1401755,RAZAK,ADIZA,Female,Married,TRADER,247097443,"TAFO                      
+                    ",,9/12/2014 13:40,,10/15/1976
+PAT1401756,ACHEAMPONG,DORIS,Female,Single,STUDENT,266434607,"KWADASO                      
+                    ",,9/12/2014 14:37,,12/24/1997
+PAT1401757,JIBRILA,MARIYAM,Female,Single,STUDENT,249538162,"TAFO                      
+                    ",,9/12/2014 14:40,,8/22/2009
+PAT1401758,HUBE,ABDUL KADIR,Male,Single,CHILD,244420834,"PANKRONO                      
+                    ",,9/12/2014 14:43,,6/10/2003
+PAT1401759,DAUDA,AKILU,Male,Single,CHILD,,"TAFO                      
+                    ",,9/12/2014 15:04,,8/1/2012
+PAT1401760,OPPONG,LAWRENCE,Male,Married,TRADER,247244580,"                      
+      BREMANG              ",,9/12/2014 17:01,,11/15/2011
+PAT1401761,AGYEMANG,JAMES OFORI,Male,Married,FARMER,,"OLD TAFO KUMASI                      
+                    ",,9/13/2014 9:28,,12/16/2014
+PAT1401762,ABDUL RAHAMAN,AMINATU,Female,Married,,,"EDUBINSU                      
+                    ",,9/13/2014 9:41,,6/20/1953
+PAT1401763,ASANTE ,GIFTY,Female,Married,TRADING,246176363,"YAFO NHYIEASO KUMASI                      
+                    ",,9/13/2014 9:59,,7/5/1977
+PAT1401764,OTENG,SABRATHINO,Male,Single,PUPIL,,"OLD TAFO                      
+                    ",,9/13/2014 10:04,,6/6/2009
+PAT1401765,BUDU,RAYMOND,Male,Single,STUDENT,,"TAFO NHYIEASO ,KUMASI                     
+                    ",,9/13/2014 11:16,,4/4/2000
+PAT1401766,ADU ,MILLICENT,Female,Single,STUDENT,242202267,"PANKRONO KUMASI                      
+                    ",,9/13/2014 12:21,,2/2/1994
+PAT1401767,MUSTAPHA,FAISAL,Male,Single,STUDENT,243367338,"AHWIAA KUMASI                      
+                    ",,9/13/2014 12:35,,6/11/1993
+PAT1401768,AFRIYIE,AGNES,Female,Divorced,,," PLT3 BLK11 KROFROM                     
+                    ",,9/14/2014 14:30,,9/13/1936
+PAT1401769,BOATENG,JACQUELINE,Female,Single,CHILD,,"  PLT16BLK19                    
+                    ",,9/14/2014 15:28,,10/15/2012
+PAT1401770,``AMPONSAH,CECILIA,Female,Single,CASHIER,242802097,"                      
+  PLT30BLK2                  ",,9/14/2014 16:24,,3/17/1985
+PAT1401771,ABRAFI,AKOSUA ,Female,Married,TRADER,,"   PLT19BLK9  NEW TAFO                   
+                    ",,9/14/2014 16:32,,3/8/1958
+PAT1401772,ABRAFI,EMMANUELLA,Female,Single,STUDENT,,"KROFROM                      
+                    ",,9/15/2014 9:11,,2/9/2003
+PAT1401773,NYARKO,YAA,Female,Widowed,TRADER,,"ATIMATIM NEW SITE                      
+                    ",,9/15/2014 11:01,,3/14/1980
+PAT1401774,KORANG,JOYCE,Female,Married,TEACHER,273299291,"KRONUM                      
+                    ",,9/15/2014 11:06,,11/28/1977
+PAT1401775,SIKAYENA,ESTHER,Female,Married,TRADER,546916464,"KRONUM KWAPRA                      
+                    ",,9/15/2014 11:12,,3/7/1989
+PAT1401776,MOHAMMED,ZAINABU,Female,Married,UNEMPLOYED,,"MOSHIE ZONGO                      
+                    ",,9/15/2014 11:14,,7/1/1975
+PAT1401777,SAKAAH,AMA,Female,Widowed,TRADER,,"ATIMATIM                      
+                    ",,9/16/2014 9:49,,3/19/1952
+PAT1401778,ADJEI,GLORIA,Female,Married,CATERER,243639801,"TAFO                      
+                    ",,9/16/2014 12:35,,10/9/1984
+PAT1401779,AKAAMAH,ERNESTINA,Female,Single,SEAMSTRESS,243977096,"TAFO                      
+                    ",,9/16/2014 14:22,,12/22/1991
+PAT1401780,FOSUHENE,RACHAEL K.,Female,Single,PUPIL,,"KROFROM                      
+                    ",,9/16/2014 17:02,,10/18/2011
+PAT1401781,ODURO,AGNES,Female,Single,STUDENT,243272542,"ATIMATIM                      
+                    ",,9/17/2014 11:24,,2/15/1993
+PAT1401782,MOHAMMED,SUDAN,Male,Married,TRADING,267357159,"NEW SUAME KUMASI                      
+                    ",,9/17/2014 11:40,,0000-00-00
+PAT1401783,OFOSU-AGYEMANG,NANA,Male,Divorced,PENSIONER,540832243,"PLT 12 BEBRE                      
+                    ",,9/17/2014 12:24,,4/14/1942
+PAT1401784,QUANSHIE OSEI,DOUGLAS,Male,Married,POLICEMAN,207072347,"TAFO NHYIAESO                      
+                    ",,9/18/2014 10:33,,7/1/1955
+PAT1401785,ADAM SAAHENE,MARIAM,Female,Single,STUDENT,,"TAFO AHENBRONUM                      
+                    ",,9/18/2014 18:11,,2/4/2003
+PAT1401786,BOATENG,BENETHA,Female,Single,PUPIL,,"ATIMATIM                      
+                    ",,9/18/2014 18:16,,5/19/2000
+PAT1401787,ASANTE ATAA,ADWOA,Female,Married,TRADER,546106766,"AHODWO                      
+                    ",,9/19/2014 10:09,,4/2/1988
+PAT1401788,OFOSU,BRIDGET,Female,Single,TEACHER,267585151,"KRONUM                      
+                    ",,9/19/2014 12:28,,2/7/1989
+PAT1401789,NSAFOAH,AUGUST[NE,Male,Single,NATI0NALSERVICEPERESONR,249590535,"                      
+                    ATIMATIM",,9/22/2014 17:39,,11/20/1984
+PAT1401790,MENSAH PAERL ,SHARON,Female,Single,SUDENT,,"                      
+         MBROM           ",,9/22/2014 18:07,,1/11/2001
+PAT1401791,AIDOO ,STEPHEN,Male,Single,STUDENT,548841294,"                      
+                    MEDUMA-PLT 35  BLK D",,9/26/2014 10:35,,6/5/1990
+PAT1401792,BATOMAR,FELIX,Male,Single,PUPIL,,"                      
+             PLT 20 BLK C TAFO       ",,9/29/2014 11:26,,2/5/2004
+PAT1401793,ZIEBA ,GRACE,Female,Married,TRADER,241669854,"                      
+          PLT 20 BLK C TAFO          ",,9/29/2014 11:34,,1/1/1978
+PAT1401794,KONADU,AMA,Female,Single,UNEMPLOYED,547676074,"TAFO                      
+                    ",,9/29/2014 11:39,,7/4/1949
+PAT1401795,ANSAH-TWUM,GERTRUDE,Female,Married,ACCOUNTS OFFICER,269555519,"MEDUMA                      
+                    ",,9/29/2014 11:42,,10/16/1983
+PAT1401796,IBRAHIM,REWAIDA,Female,Single,CHILD,,"                      
+                 MOSHIE ZONGO   ",,9/29/2014 11:44,,9/24/2011
+PAT1401797, ASIAMAH , ABENA ESTHER,Female,Single,STUDENT,209489756,"         PANKRONO, PLOT 264,BLK B     
+                    ",,9/29/2014 16:21,,6/21/1994
+PAT1401798,NAJAT,MOHAMMED,Female,Single,STUDENT,,"                      
+                    MOSHIE ZONGO",,9/30/2014 11:36,,10/7/2014
+PAT1401799,AMANKWAA,PRECIOUS,Female,Single,,272281821,"                      
+            SUAME        ",,9/30/2014 12:21,,12/15/2013
+PAT1401800,AMAKO,JACKSON EVA,Female,Married,LAWYER,243426800,"                      
+            BREMAH ",,9/30/2014 13:16,,5/29/1985
+PAT1401801,ABDUL,FATAWU,Male,Single,STUDENT,246960138,"                      
+            TAFO",,9/30/2014 14:00,,2/2/1990
+PAT1401802,         UMAR,YUSSIF,Male,Single,STUDENT,242787198,"                      
+   TAFO                 ",,10/1/2014 11:07,,6/23/1997
+PAT1401803,FUSENI,SHARIFA,Female,Single,STUDENT,249630855,"                      
+   TAFO                 ",,10/1/2014 11:12,,6/23/1997
+PAT1401804,ASAMOAH,RUTH,Female,Married,STUDENT,246952344,"                      
+   KROFROM               ",,10/1/2014 11:55,,5/27/1994
+PAT1401805,DUAH,JOANA,Female,Single,TRADER,246568696,"                      
+     BREMANG               ",,10/1/2014 12:06,,3/4/1980
+PAT1401806,SARFO,TIKELCY,Female,Single,CHILD,,"                      
+                   A DOMPOM",,10/2/2014 8:48,,8/24/2011
+PAT1401807,NSIAH,MARY,Female,Widowed,AGED,,"                      
+         TAFO           ",,10/2/2014 12:02,,3/6/1946
+PAT1401808,OFORI ASARE,PETER,Male,Single,,244520267,"                      
+            PANKRONO        ",,10/2/2014 12:29,,6/29/1949
+PAT1401809,MPRENGO,ABENA,Female,Single,FRAMER,,"                      
+              TAFO      ",,10/2/2014 12:52,,12/3/1954
+PAT1401810,ADJEI OWUSU,DIANA,Female,Married,TRADER,503489955,"                      
+               TAFO     ",,10/2/2014 12:59,,11/29/1971
+PAT1401811, MOHAMMED,JOSUA,Male,Single,CHILD,,"                      
+                 BREMANG   ",,10/4/2014 10:09,,4/28/2008
+PAT1401812,ADDAI,CONSTANCE,Female,Married,SENTRESS,272584199,"                      
+             KREONUM       ",,10/4/2014 11:28,,10/1/2014
+PAT1401813, KORKOR, PRISCILLA GRACE,Female,Single,CHILD,,"                      
+     TAFO              ",,10/4/2014 11:36,,5/27/2014
+PAT1401814,ANANE,CHRISTIANA,Female,Married,HAIR DERSSER,244585900,"                      
+              ASENDUA      ",,10/4/2014 11:43,,12/27/1980
+PAT1401815,AMANWAH,KWASI,Male,Single,STUDENT,,"                      
+      TAFO             ",,10/4/2014 11:52,,2/2/2003
+PAT1401816,ACHIAA,GEORGINA,Female,Single,CIVIL SERVANT,208956685,"                      
+       KROFROM             ",,10/4/2014 12:00,,1899-05-04
+PAT1401817,nketia,akosua,Female,Married,semstress,540927658,"                      
+      tafo            ",,10/4/2014 12:20,,4/8/1986
+PAT1401818,IBRAHIM,NIMATU,Female,Single,STUDENT,554483786,"                      
+         ATIMATIM           ",,10/4/2014 12:48,,11/14/1992
+PAT1401819,ASIAMAH,AKWASI,Male,Married,TRADER,540838711,"                      
+           TAFO         ",,10/4/2014 13:22,,3/4/1969
+PAT1401820,atriyie,flien,Female,Single,trader,244929496,"                      
+                    domankye",,10/6/2014 11:37,,7/19/1977
+PAT1401821,awudu,walatuge yussif,Male,Single,student,244112650,"                      
+                  tafo  ",,10/6/2014 11:52,,5/5/2009
+PAT1401822,shakur ubaidula,abdul,Male,Single,child,,"                      
+                    pankorono",,10/6/2014 12:33,,4/5/2007
+PAT1401823,ANTWIWAA,ATAA,Female,Divorced,,,"                      
+                    BREMAN",,10/7/2014 10:52,,10/9/1942
+PAT1401824,0SEI,AGYA,Male,Married,,,"                      
+                    PLT 62 BLK B",,10/7/2014 11:47,,7/1/1923
+PAT1401825,TAHIRU,amidatu,Female,Single,trader,540359992,"              jamasi        
+                    ",,10/8/2014 10:18,,9/25/1992
+PAT1401826,sulegman,HADIJATU,Female,Single,CHILD,249384758,"                      
+                    jamaasi",,10/8/2014 10:25,,2/1/2013
+PAT1401827,normenyo,VICTORIA,Female,Married,TRADER,20808374,"                      
+        APPEMSU            ",,10/8/2014 10:34,,5/28/1976
+PAT1401828,ZAKIRIA,HUZEIMA,Female,Single,APPRENTICE,275034859,"                      
+                  SEPE BOUKROM  ",,10/8/2014 10:34,,5/24/1989
+PAT1401829,OKYERE,THERESAH,Female,Married,TRADER,243101759,"                      
+                  BREMANG UGC  ",,10/8/2014 10:50,,2/24/1954
+PAT1401830,AMINA,MOHAMMED,Female,Married,,,"                      
+                BUOHO   ",,10/8/2014 10:56,,3/27/1969
+PAT1401831,AMINA,MOHAMMED,Female,Married,PHONE REPAIRER,243489301,"                      
+                BUOHO   ",,10/8/2014 11:18,,3/27/1969
+PAT1401832,ZAKARI,NUHU,Male,Single,,,"                      
+              PANKRONO      ",,10/8/2014 11:21,,1/19/1989
+PAT1401833,DUAH,MICHEAL,Male,Single,CHILD,246749953,"                      
+                    NYHIANSO",,10/8/2014 11:28,,2/3/2012
+PAT1401834,KWARTENG,JOHN,Male,Single,TRADER,266373713,"NEAR ANGEL SCHOOL KRONOM ABUOHIA                      
+                    ",,10/8/2014 11:28,,3/15/1985
+PAT1401835,MAWUNO,KWABENAVI,Male,Single,CARPENTER,271350451,"                      
+                    AWULAGA",,10/8/2014 11:35,,7/16/1977
+PAT1401836,DANSO,K. STEPHEN,Male,Single,,,"                      
+                    TAFO",,10/8/2014 14:41,,4/1/1994
+PAT1401837,ASARE,ENOCK,Male,Single,,,"                      
+                    BREMAN",,10/8/2014 15:01,,12/5/1995
+PAT1401838,KOKROKO,MARY,Female,Widowed,,,"                      
+                    ANOMANGYE",,10/8/2014 15:10,,1/21/1952
+PAT1401839,YEBOAH,VICTOR OBOUR,Male,Single,,,"                      
+                    PANKRONO",,10/8/2014 16:25,,12/15/1991
+PAT1401840,ALHASSAN,YUNUS,Male,Single,,,"                      
+                    TAFO",,10/8/2014 18:40,,8/15/1984
+PAT1401841,DANQUAH YAW,SHADRACK ,Male,Single,STUDENT,247007811,"                      
+         ABRA           ",,10/9/2014 9:23,,4/8/1993
+PAT1401842,BOAKYE ,LYDIA,Female,Single,,500888601,"                      
+               PANKRONO     ",,10/9/2014 9:39,,12/5/1991
+PAT1401843,BADU,AKOSUA,Female,Single,,,"                      
+       PANKORONO",,10/9/2014 9:59,,9/7/1945
+PAT1401844,ASAMOAH,EDWARD,Male,Single,STUDENT,24128027,"                      
+         TAFO           ",,10/9/2014 10:28,,2/9/1996
+PAT1401845,KYEI,ELIZABETH,Female,Single,CHILD,,"                      
+      TAFO              ",,10/9/2014 10:37,,8/5/2011
+PAT1401846,FOBI,AMA,Female,Single,STUDENT,,"                      
+           BEKWAE         ",,10/9/2014 10:41,,11/22/1992
+PAT1401847,NSIA,EVANS,Male,Married,TRADER,243123200,"                      
+   BOUHO                 ",,10/9/2014 12:01,,5/9/1983
+PAT1401848,ADU,RACHAEL ,Female,Single,STUDENT,,"                      
+     BREMANG              ",,10/9/2014 12:09,,11/26/1999
+PAT1401849,ARTHUR,EDWARD,Male,Single,,,"                      
+            DICHENMSO        ",,10/10/2014 9:18,,7/28/1998
+PAT1401850,BOWOA,MARY ABENA,Female,Widowed,,,"                      
+                    DOME",,10/10/2014 9:20,,0000-00-00
+PAT1401851,BAIDEN,CECILIA,Female,Married,TRADER,269764330,"                      
+    MANPONGTEN               ",,10/13/2014 9:13,,1/4/1975
