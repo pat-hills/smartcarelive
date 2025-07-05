@@ -6,7 +6,7 @@ $connection ="";
 
  
 
-  $hostdb = "52.91.29.65";   
+  $hostdb = "caredb.smartcare.live";   
   $userdb = "admin";   
   $passdb = "admin123";   
   $namedb = "smart_care_live"; 
