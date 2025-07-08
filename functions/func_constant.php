@@ -25,4 +25,13 @@ define("IS_LFT_DIRECT", true);
 
 define("PROJECT_MDNA", true);
 
+define("RABBITMQ_HOST", 'b-e7f82843-f329-4d90-b9ec-54cfe5d835f2.mq.us-east-1.on.aws');
+define("RABBITMQ_PORT", 5671);
+define("RABBITMQ_USERNAME", 'rabbit');
+define("RABBITMQ_PASSWORD", 'rabbitBunny2025');
+define("RABBITMQ_VIRTUAL_HOST", '/');
+define("IS_RABBITMQ", true);
+define("IS_MEMCACHED", false);
 
+define("MEMCACHE_HOST", 'b-e7f82843-f329-4d90-b9ec-54cfe5d835f2.mq.us-east-1.on.aws');
+define("MEMCACHE_PORT", 11211);

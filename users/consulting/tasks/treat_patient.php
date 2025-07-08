@@ -173,8 +173,17 @@
                         require_once "../../functions/func_consulting.php";
                         $bio_vital = get_bio(@$_SESSION['patient_id']);
                         $bio_vital_last_vist = get_bio_last_visit(@$_SESSION['patient_id']);
-                        //get_bio_last_visit
-                        //$staff = get_staff_info($bio_vitals['taken_by']);
+
+                        // $bio_vital_last_vist = $bio_vital_last['data'];
+                        // $source = $bio_vital_last['source'];
+
+                    // if ($source === 'cache') {
+                    //     echo "<small style='color: green;'>Source: Cache ✅</small><br>";
+                    // } elseif ($source === 'db') {
+                    //     echo "<small style='color: orange;'>Source: Database 🟠</small><br>";
+                    // } else {
+                    //     echo "<small style='color: red;'>No data found ❌</small><br>";
+                    // }
                         ?>
                         <div class="content">
                             <ul class="list-group">
@@ -247,9 +256,9 @@
 
                                 <li class="list-group-item"><strong>Weight (Kg): </strong> <?php echo @$bio_vital_last_vist['weight']; ?> </li>
 
-                                <li class="list-group-item"><strong>Fbs: </strong> <?php echo @$bio_vital['fbs']; ?> </li>
+                                <li class="list-group-item"><strong>Fbs: </strong> <?php echo @$bio_vital_last_vist['fbs']; ?> </li>
 
-                                <li class="list-group-item"><strong>Rbs: </strong> <?php echo @$bio_vital['rbs']; ?> </li>
+                                <li class="list-group-item"><strong>Rbs: </strong> <?php echo @$bio_vital_last_vist['rbs']; ?> </li>
 
                                 <?php if(IS_BMI == true) { ?>
                                 <li class="list-group-item"><strong>Height (m): </strong> <?php echo @$bio_vital_last_vist['height']; ?> </li>

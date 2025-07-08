@@ -53,29 +53,73 @@ function get_bio_last_visit($patient_id){
 	
 	$date = date('Y-m-d');
 
-	$sql = " SELECT id,patient_id,bmi,date_taken,weight,height,blood_pressure_top,blood_pressure_down,temperature ,pulse,respiration,s_p_0_2,taken_by,fbs,rbs FROM (SELECT id,patient_id,bmi,date_taken,weight,height,blood_pressure_top,blood_pressure_down,temperature ,pulse,s_p_0_2,respiration, taken_by,fbs,rbs from tbl_patient_biovitals WHERE patient_id = '".$patient_id."' 
+	$sql = " SELECT id,patient_id,bmi,date_taken,weight,height,blood_pressure_top,blood_pressure_down,temperature ,pulse,respiration,s_p_0_2,taken_by,fbs,
+	rbs FROM (SELECT id,patient_id,bmi,date_taken,weight,height,blood_pressure_top,blood_pressure_down,temperature ,pulse,s_p_0_2,respiration, taken_by,fbs,rbs from tbl_patient_biovitals WHERE patient_id = '".$patient_id."' 
 	 ORDER BY id DESC LIMIT 2 ) tbl_patient_biovitals ORDER BY id LIMIT 1 ";
 	$query_run = mysqli_query($connection,$sql);
 	while($row=mysqli_fetch_assoc($query_run)){
 		
-		/*$_SESSION['weight']=$row['weight'];
-		$_SESSION['height']=$row['height'];
-		$_SESSION['bmi']=$row['bmi'];
-		$_SESSION['blood_pressure']=$row['blood_pressure'];
-		$_SESSION['temperature']=$row['temperature'];
-		$_SESSION['taken_by']=$row['taken_by'];
-		$_SESSION['date_taken']=$row['date_taken'];
-		*/
 		return $row;
 		
 	}
 }
 
+
+
+//require_once __DIR__ . '/../Cache.php'; // Adjust the path as needed
+
+// function get_bio_last_visit($patient_id) {
+// 	global $connection;
+
+// 	$cache = new Cache();
+// 	$cacheKey = "bio_last_visit_" . $patient_id;
+
+// 	// Try getting from cache
+// 	$cachedData = $cache->get($cacheKey);
+// 	if ($cachedData !== false) {
+// 		return [
+// 			'source' => 'cache',
+// 			'data' => $cachedData
+// 		];
+// 	}
+
+// 	// Fetch from DB if not in cache
+// 	$date = date('Y-m-d');
+// 	$sql = "SELECT id,patient_id,bmi,date_taken,weight,height,blood_pressure_top,blood_pressure_down,temperature,pulse,respiration,s_p_0_2,taken_by,fbs,rbs 
+// 	        FROM (
+// 	            SELECT id,patient_id,bmi,date_taken,weight,height,blood_pressure_top,blood_pressure_down,temperature,pulse,s_p_0_2,respiration,taken_by,fbs,rbs 
+// 	            FROM tbl_patient_biovitals 
+// 	            WHERE patient_id = '$patient_id' 
+// 	            ORDER BY id DESC 
+// 	            LIMIT 2
+// 	        ) AS tbl_patient_biovitals 
+// 	        ORDER BY id 
+// 	        LIMIT 1";
+
+// 	$query_run = mysqli_query($connection, $sql);
+// 	if ($row = mysqli_fetch_assoc($query_run)) {
+// 		$cache->set($cacheKey, $row, 300); // Cache it for 5 minutes
+// 		return [
+// 			'source' => 'db',
+// 			'data' => $row
+// 		];
+// 	}
+
+// 	// If nothing found
+// 	return [
+// 		'source' => 'none',
+// 		'data' => null
+// 	];
+// }
+
+//This function gets the bio vitals of a patient by patient ID and date
+
+
+
 function bio_vitals($patient_id, $date){
 
 	global $connection;
 
-	//$sql = "SELECT *, DATE(date_taken) as date_taken  FROM `tbl_patient_biovitals` FROM tbl_consulting WHERE patient_id = '".$patient_id."'";
 	$sql = "SELECT * FROM  tbl_patient_biovitals WHERE patient_id = '".$patient_id."' AND DATE( date_taken ) = '".$date."'";
 	$result = mysqli_query($connection,$sql);
 

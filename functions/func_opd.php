@@ -6,6 +6,9 @@
 
 //Insert patient bio vitals go_cashier
 require_once"func_common.php";
+//require_once "func_constant.php";
+require_once __DIR__ . '/../class.Queue.php';
+
 
 
 function getMyPatientHistory($startDate,$endDate){
@@ -188,6 +191,37 @@ function insert_bio_vitals( $patient_id, $weight, $height, $bmi, $blood_pressure
      
        
   if(  $query_run = mysqli_query($connection,$sql) or die(mysqli_error($connection)) ){
+
+       if (IS_RABBITMQ) {
+    //require_once __DIR__ . '/../class.Queue.php';
+
+    try {
+        $queue = new Queue(
+            RABBITMQ_HOST,
+            RABBITMQ_PORT,
+            RABBITMQ_USERNAME,
+            RABBITMQ_PASSWORD
+        );
+
+        $queue->publish('notifications', [
+            'type' => 'email',
+            'email' => $email,
+            'patient_id' => $patient_id,
+            'message' => sprintf(
+                "Dear patient, your vitals have been recorded:\nBP: %s/%s mmHg\nTemp: %s °C\nPulse: %s bpm\nSpO₂: %s%%\n",
+                $blood_pressure_top,
+                $blood_pressure_down,
+                $temperature,
+                $pulse,
+                $s_p_0_2
+            )
+        ]);
+
+        $queue->close();
+    } catch (Exception $e) {
+        error_log("RabbitMQ publish error: " . $e->getMessage());
+    }
+}
             return TRUE;
          } else {
             return FALSE;
@@ -203,6 +237,8 @@ function update_bio_vitals($patient_id, $weight, $height, $bmi, $blood_pressure_
     $date_taken = date('Y-m-d H:i:s');
     $date2 = date('Y-m-d');
 
+    $email = "pathills2013@gmail.com"; // This should be fetched from the patient's record // Just a test for RabbitMQ
+
     $sql = "SELECT id FROM tbl_patient_biovitals WHERE patient_id = '".$patient_id."' AND date_taken = '".$date2."'";
 
     $result = mysqli_query($connection,$sql);
@@ -215,6 +251,41 @@ function update_bio_vitals($patient_id, $weight, $height, $bmi, $blood_pressure_
                 WHERE patient_id = '".$patient_id."' AND date_taken = '".$date2."'";
         
         if($query_run = mysqli_query($connection,$sql) ){
+
+            // If the update is successful, send a notification to RabbitMQ
+
+            // Prepare message data for RabbitMQ
+       if (IS_RABBITMQ) {
+    //require_once __DIR__ . '/../class.Queue.php';
+
+    try {
+        $queue = new Queue(
+            RABBITMQ_HOST,
+            RABBITMQ_PORT,
+            RABBITMQ_USERNAME,
+            RABBITMQ_PASSWORD
+        );
+
+        $queue->publish('notifications', [
+            'type' => 'email',
+            'email' => $email,
+            'patient_id' => $patient_id,
+            'message' => sprintf(
+                "Dear patient, your vitals have been recorded:\nBP: %s/%s mmHg\nTemp: %s °C\nPulse: %s bpm\nSpO₂: %s%%\n",
+                $blood_pressure_top,
+                $blood_pressure_down,
+                $temperature,
+                $pulse,
+                $s_p_0_2
+            )
+        ]);
+
+        $queue->close();
+    } catch (Exception $e) {
+        error_log("RabbitMQ publish error: " . $e->getMessage());
+    }
+}
+
             return TRUE;
          } else {
             return FALSE;
@@ -232,6 +303,36 @@ function update_bio_vitals($patient_id, $weight, $height, $bmi, $blood_pressure_
             if($status_consultation == "0"){
                 go_consult($consulting_code, $patient_id, $get_doctors_room_by_id,$taken_by, $taken_by, $date2);
             }
+               if (IS_RABBITMQ) {
+   // require_once __DIR__ . '/../class.Queue.php';
+
+    try {
+        $queue = new Queue(
+            RABBITMQ_HOST,
+            RABBITMQ_PORT,
+            RABBITMQ_USERNAME,
+            RABBITMQ_PASSWORD
+        );
+
+        $queue->publish('notifications', [
+            'type' => 'email',
+            'email' => $email,
+            'patient_id' => $patient_id,
+            'message' => sprintf(
+                "Dear patient, your vitals have been recorded:\nBP: %s/%s mmHg\nTemp: %s °C\nPulse: %s bpm\nSpO₂: %s%%\n",
+                $blood_pressure_top,
+                $blood_pressure_down,
+                $temperature,
+                $pulse,
+                $s_p_0_2
+            )
+        ]);
+
+        $queue->close();
+    } catch (Exception $e) {
+        error_log("RabbitMQ publish error: " . $e->getMessage());
+    }
+}
             return TRUE;
          } else {
             return FALSE;
