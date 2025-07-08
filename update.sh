@@ -30,3 +30,25 @@ echo "Restarting Apache..."
 sudo systemctl restart apache2
 
 echo "✅ Update complete!"
+
+
+# --- Additional Notes ---
+# sudo mkdir -p /opt/deploy-scripts
+# cd /opt/deploy-scripts
+
+#  sudo nano update-app.sh #CREATE THIS FILE 
+# sudo chmod +x update-app.sh #MAKE IT EXECUTABLE
+
+# sudo ln -s /opt/deploy-scripts/update-app.sh /usr/local/bin/update-app #mAKE IT SYMLINKED TO /usr/local/bin
+
+# sudo update-app # Run it everywhere
+
+
+
+# If you have any custom configurations, ensure they are preserved.
+# Always backup your application and database before running updates.
+
+# Delete everything in the /var/www/html directory before pulling the latest code.
+
+# sudo find /var/www/html -mindepth 1 -delete
+
